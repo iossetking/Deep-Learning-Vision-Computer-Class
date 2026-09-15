@@ -1,1 +1,55 @@
+# Operating system files
 .DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Python build and packaging artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test coverage
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Downloaded datasets and generated lab output
+/data/
+output/
+
+# Training checkpoints and experiment logs
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+runs/
+wandb/
+lightning_logs/
+*.log
+
+# Local editor files
+.idea/
+*.swp
+*.swo
+*~
